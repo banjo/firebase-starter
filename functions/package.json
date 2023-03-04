@@ -30,8 +30,5 @@
         "typescript": "^4.9.0"
     },
     "private": true,
-    "prettier": "@banjoanton/prettier-config",
-    "simple-git-hooks": {
-        "pre-commit": "pnpm run format && pnpm run lint"
-    }
+    "prettier": "@banjoanton/prettier-config"
 }
