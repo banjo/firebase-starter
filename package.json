@@ -10,10 +10,8 @@
         "format": "prettier --write ."
     },
     "devDependencies": {
-        "@banjoanton/eslint-config-prettier": "^0.0.8",
+        "@banjoanton/eslint-config": "^0.1.1",
         "@banjoanton/prettier-config": "^0.0.8",
-        "@typescript-eslint/eslint-plugin": "^5.54.0",
-        "@typescript-eslint/parser": "^5.54.0",
         "eslint": "^8.35.0",
         "lint-staged": "^13.1.2",
         "pnpm": "^7.28.0",
