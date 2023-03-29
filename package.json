@@ -13,22 +13,9 @@
         "@banjoanton/eslint-config": "^0.1.1",
         "@banjoanton/prettier-config": "^0.0.8",
         "eslint": "^8.35.0",
-        "git-install-hook": "^0.0.3",
-        "lint-staged": "^13.1.2",
+        "hoks": "^0.1.10",
         "pnpm": "^7.28.0",
-        "prettier": "^2.8.4",
-        "simple-git-hooks": "^2.8.1"
+        "prettier": "^2.8.4"
     },
-    "simple-git-hooks": {
-        "pre-commit": "pnpm exec lint-staged",
-        "post-checkout": "pnpm exec git-install-hook",
-        "post-merge": "pnpm exec git-install-hook"
-    },
-    "prettier": "@banjoanton/prettier-config",
-    "lint-staged": {
-        "*": [
-            "prettier --write --ignore-unknown",
-            "eslint --fix"
-        ]
-    }
+    "prettier": "@banjoanton/prettier-config"
 }
